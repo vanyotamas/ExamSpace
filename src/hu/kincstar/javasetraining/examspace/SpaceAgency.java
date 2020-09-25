@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SpaceAgency {
-    private List<Satellite> registeredSatellies = new ArrayList();
+    private List<Satellite> registeredSatellies = new ArrayList<>();
 
     public void registerSatellite(Satellite satellite) {
         if (satellite == null || satellite.getRegisterIdent().isEmpty())
