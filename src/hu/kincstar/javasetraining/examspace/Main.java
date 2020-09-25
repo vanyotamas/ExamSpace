@@ -3,7 +3,6 @@ package hu.kincstar.javasetraining.examspace;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
         SpaceAgency sa = new SpaceAgency();
         sa.registerSatellite(new Satellite("sat1", new CelestialCoordinates(10, 10, 10)));
         sa.registerSatellite(new Satellite("sat2", new CelestialCoordinates(20, 20, 20)));
